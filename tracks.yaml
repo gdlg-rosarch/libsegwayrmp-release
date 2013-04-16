@@ -10,11 +10,11 @@ tracks:
       -i :{release_inc}
     devel_branch: null
     last_version: 0.2.3
-    name: libsegwayrmp
+    name: upstream
     patches: null
     release_inc: '0'
     release_tag: :{version}
-    ros_distro: hydro
+    ros_distro: groovy
     vcs_type: git
     vcs_uri: https://github.com/segwayrmp/libsegwayrmp.git
     version: :{auto}
