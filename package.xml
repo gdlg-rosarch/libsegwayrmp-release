@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
   <name>libsegwayrmp</name>
-  <version>0.2.5</version>
+  <version>0.2.6</version>
   <description>
     This is a C++ library for interfacing with Segway's RMP line of robotic platforms.
   </description>
@@ -17,6 +17,8 @@
   <author email="wjwwood@gmail.com">William Woodall</author>
 
   <buildtool_depend>cmake</buildtool_depend>
+
+  <run_depend>catkin</run_depend>
 
   <build_depend>serial</build_depend>
   <run_depend>serial</run_depend>
